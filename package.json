@@ -1,0 +1,27 @@
+{
+  "name": "tabris-plugin-fab",
+  "version": "1.0.0",
+  "description": "Floating action button plugin for Tabris.js.",
+  "cordova": {
+    "id": "tabris-plugin-fab",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elshadsm/tabris-plugin-fab"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "tabris",
+    "tabris.js",
+    "fab",
+    "float",
+    "action",
+    "button"
+  ],
+  "author": "Elshad Seyidmammadov",
+  "license": "Revised BSD License (3-clause license)"
+}

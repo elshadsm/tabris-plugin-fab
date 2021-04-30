@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="tabris-plugin-fab" 
+        version="1.0.0"
+        xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <name>Tabris Plugin Floating Action Button</name>
+
+    <js-module name="FloatingActionButton" src="www/FloatingActionButton.js">
+        <clobbers target="cordova.plugins.FloatingActionButton" />
+    </js-module>
+
+    <platform name="android">
+
+      <config-file target="AndroidManifest.xml" parent="/manifest/application">
+        <meta-data
+            android:name="com.eclipsesource.tabris.android.HANDLER.com.tabris.js.android.fab"
+            android:value="com.tabris.js.android.fab.FloatingActionButtonHandler" />
+      </config-file>
+
+      <source-file src="src/android/com/tabris/js/android/fab/FloatingActionButtonHandler.kt"
+                   target-dir="src/android/com/tabris/js/android/fab" />
+      <source-file src="src/android/com/tabris/js/android/fab/ImageProperty.kt"
+                   target-dir="src/android/com/tabris/js/android/fab" />
+
+    </platform>
+
+</plugin>
