@@ -1,6 +1,6 @@
 # Tabris.js Floating Action Button Plugin
 
-Floating action button plugin for [Tabris.js](https://tabrisjs.com). The plugin currently supports Android.
+The floating action button plugin for [Tabris.js](https://tabrisjs.com).
 
 ## Compatibility
 
@@ -41,7 +41,7 @@ To fetch the latest development version use the GitHub URL:
 
 ## API
 
-The plugin api consists of the `cordova.plugins.FloatingActionButton` [`Widget`](http://docs.tabris.com/latest/api/Widget.html) with the following properties and events.
+The plugin api consists of the [`Widget`](http://docs.tabris.com/latest/api/Widget.html) > `cordova.plugins.FloatingActionButton` with the following properties and events.
 
 ### `cordova.plugins.FloatingActionButton`
 
@@ -57,7 +57,7 @@ The plugin api consists of the `cordova.plugins.FloatingActionButton` [`Widget`]
 
 * Fired when the button is pressed.
 
-* EventObject Type: EventObject<Button>
+* EventObject Type: `EventObject<Button>`
 
 * This event has no additional parameter.
 
