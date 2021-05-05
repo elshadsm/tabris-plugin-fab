@@ -10,7 +10,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton
 class FloatingActionButtonHandler(private val scope: ActivityScope) :
     ViewHandler<FloatingActionButton>(scope) {
 
-  override val type = "cordova.plugins.FloatingActionButton"
+  override val type = "custom.FloatingActionButton"
 
   override val properties by lazy {
     super.properties + listOf<Property<*, *>>(

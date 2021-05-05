@@ -7,7 +7,7 @@
     <name>Tabris Plugin Floating Action Button</name>
 
     <js-module name="FloatingActionButton" src="www/FloatingActionButton.js">
-        <clobbers target="cordova.plugins.FloatingActionButton" />
+        <clobbers target="custom.FloatingActionButton" />
     </js-module>
 
     <platform name="android">

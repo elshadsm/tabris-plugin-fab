@@ -2,7 +2,7 @@
 class FloatingActionButton extends tabris.Widget {
 
   get _nativeType() {
-    return 'cordova.plugins.FloatingActionButton';
+    return 'custom.FloatingActionButton';
   }
 
   show() {

@@ -17,7 +17,7 @@ The following table shows the plugin branches and the minimum required Tabris.js
 The following snippet shows how the `tabris-plugin-fab` plugin can be used in a Tabris.js app:
 
 ```js
-new cordova.plugins.FloatingActionButton({
+new custom.FloatingActionButton({
   centerX: 0,
   centerY: 0,
   image: 'ImageValue'
@@ -41,9 +41,9 @@ To fetch the latest development version use the GitHub URL:
 
 ## API
 
-The plugin api consists of the [`Widget`](http://docs.tabris.com/latest/api/Widget.html) > `cordova.plugins.FloatingActionButton` with the following properties and events.
+The plugin api consists of the [`Widget`](http://docs.tabris.com/latest/api/Widget.html) > `custom.FloatingActionButton` with the following properties and events.
 
-### `cordova.plugins.FloatingActionButton`
+### `custom.FloatingActionButton`
 
 #### Properties
 
